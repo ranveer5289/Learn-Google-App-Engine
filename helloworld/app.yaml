@@ -1,0 +1,12 @@
+application: ranveer5289
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /hello
+  script: helloworld.py
+
+- url: /.*
+  script: schedule.py
+
